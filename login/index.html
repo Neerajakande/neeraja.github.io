@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+
+    <style>
+        body {
+            background-color: #124;
+            font-family: Arial;
+            
+            color:paleturquoise;
+            text-align: center;
+        }
+
+        form {
+            background-color:antiquewhite;
+            color: black;
+            
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        input {
+            margin: 10px;
+            padding: 8px;
+            width: 80%;
+        }
+
+        input[type="submit"] {
+            background-color:cadetblue; 
+            box-sizing: border-box;        
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color:darkgoldenrod;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Login Form</h1>
+
+    <form action="#">
+        <label>First Name:</label><br>
+        <input type="text" name="fname" placeholder="Enter first name" required><br>
+
+        <label>Last Name:</label><br>
+        <input type="text" name="lname" placeholder="Enter last name" required><br>
+
+        <label>Username:</label><br>
+        <input type="text" name="username" placeholder="Enter username" required><br>
+
+        <label>Password:</label><br>
+        <input type="password" name="password" placeholder="Enter password" required><br>
+        <label>Gender:</label>
+            MALE:<input type="radio" name="gender" value="male">&nbsp;&nbsp;
+            Female:<input type="radio" name="gender " value="female">
+
+        
+
+        <input type="submit" value="Login">
+    </form>
+    <script>
+        
+    </script>
+
+</body>
+</html>
