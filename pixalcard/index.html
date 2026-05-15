@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <style>
+            body{
+                
+                background-color: blanchedalmond;
+                text-align: center;
+                border-radius: 3px;
+                
+                padding:10px;
+                
+                
+
+            }
+             .card{
+                margin: auto;
+                max-width: 400px;
+                border-radius: 50px;
+                border:10px solid black;
+                box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+
+            }
+            img{
+                border-radius: 20%;
+                width:150px;
+                height:150px;
+                object-fit: cover;
+                padding: 30px;
+            }
+            
+            form{
+                text-align: center;
+                border-radius: 3px;
+            }
+            input{
+                border:1px dashed grey;
+            }
+            input[type="submit"] {
+            background-color: purple;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding:10px;
+            border-radius: 3px;
+
+        }
+
+        input[type="submit"]:hover {
+            background-color: darkmagenta;
+        }
+        input[type="text"]:hover{
+            border-color: purple;
+        }
+        input[type="text"]:focus{
+            outline:2px solid purple;
+        }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="card">
+        <img src="profile.jpg">
+        <h1>Personal Profile </h1>
+        <form>
+            
+            <label>Name:
+                <input type="text" name="Name" required>
+            </label><br><br>
+            <label>Title:
+                <input type="text" name="Title" required>
+            </label><br><br>
+            <label>Linkedin :
+                <input type="text" name="Linkedin" required>
+            </label><br><br>
+            <label>GitHub :
+                <input type="text" name="GitHub" required>
+            </label><br><br>
+            <label>Portfolio Link:
+                <input type="text" name="Portfolio" required>
+            </label><br><br>
+            <input type="submit" value="view profile">
+            
+
+        </form>
+    </div>
+    </body>
+</html>
